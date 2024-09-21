@@ -31,7 +31,7 @@ app.use((err, req, res, next) => {
 });
 
 // MongoDB connection URI
-const uri = "mongodb+srv://Pavan:kumar123@cluster0.pfirt1o.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+const uri = process.env.MONGO_URL;
 
 // Connect to MongoDB using Mongoose
 mongoose.connect(uri, {
