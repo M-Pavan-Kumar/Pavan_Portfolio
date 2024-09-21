@@ -22,7 +22,7 @@ function Contact() {
 
     try {
       console.log('Sending request with data:', formData);
-      const response = await fetch('/api/send-email', {  // Changed this line
+     const response = await fetch('https://pavan-portfolio-0rar.onrender.com/api/send-email', {  
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
