@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  background-color: #ffffff; /* White background for the body */
+  color: #333333; /* Dark text color for general content */
+  line-height: 1.6;
+}
+
+.section-title {
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.project-card {
+  transition: transform 0.3s ease-in-out;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.skill-badge {
+  font-size: 0.9rem;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.contact-icon {
+  font-size: 1.2rem;
+  margin-right: 10px;
+}
+
+.App {
+  min-height: 100vh;
+}
+
+.content {
+  padding-top: 80px; /* To account for the fixed navbar */
+}
