@@ -12,10 +12,15 @@ dotenv.config();
 const app = express();
 const PORT = process.env.PORT || 5000;
 
+// app.use(cors({
+//   origin: 'http://localhost:3000', // or whatever your frontend URL is
+//   credentials: true
+// }));
 app.use(cors({
-  origin: 'http://localhost:3000', // or whatever your frontend URL is
-  credentials: true
+  origin: '*', // Allow all origins
+  credentials: true // If you want to support cookies or authentication
 }));
+
 app.use(express.json());
 
 // Add this near the top of your file, after setting up middleware
