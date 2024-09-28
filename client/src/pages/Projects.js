@@ -45,7 +45,7 @@ const projects = [
     id: 4,
     name: "My Portfolio (React)",
     images: [po1,po2,po3,po4,po5],
-    sourceCode: "https://github.com/M-Pavan-Kumar/My_Portfolio.git"
+    sourceCode: "https://github.com/M-Pavan-Kumar/Pavan_Portfolio"
   },
   // Add more projects as needed
 ];
