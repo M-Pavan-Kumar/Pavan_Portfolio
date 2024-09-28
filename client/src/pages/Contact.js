@@ -22,7 +22,11 @@ function Contact() {
 
     try {
       console.log('Sending request with data:', formData);
+<<<<<<< HEAD
       const response = await fetch('https://pavan-portfolio-zjjv.onrender.com/api/send-email', {  // Changed this line
+=======
+     const response = await fetch('https://pavan-portfolio-0rar.onrender.com/api/send-email', {  
+>>>>>>> f0e0e29dcb056b72b9b9eed0154deec707431198
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
